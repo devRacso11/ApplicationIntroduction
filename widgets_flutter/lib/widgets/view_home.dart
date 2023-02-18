@@ -13,7 +13,7 @@ class ViewHome extends StatelessWidget {
     this.text = 'Iniciar Sesión',
     this.isDark = false,
     this.backgroundColor = Colors.white,
-    this.buttonColor = Colors.blue
+    this.buttonColor = Colors.grey
   });
 
   @override
@@ -27,7 +27,7 @@ class ViewHome extends StatelessWidget {
             padding: MaterialStateProperty.all(const EdgeInsets.all(20.0)),
             ),
           onPressed: () =>  Navigator.pop(context),
-          child: Text(text,style: const TextStyle(fontSize: 20.0),),
+          child: Text(text,style: const TextStyle(fontSize: 20.0, color: Colors.white),),
           ),
       ),
     );

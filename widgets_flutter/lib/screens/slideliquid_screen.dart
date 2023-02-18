@@ -91,7 +91,7 @@ class _SlideLiquidScreenState extends State<SlideLiquidScreen> {
       // Controla el estado de la visibilidad de iconButton para deslizar la pantalla del lado izquierdo
       () {
       page = lpage;
-      if (4 == page) {
+      if (3 == page) {
         // Esconde el iconButton de desplazamiento */
         enableSlideIcon = false;
         // Aplicar color oscuro al iconButton de deslizamiento */

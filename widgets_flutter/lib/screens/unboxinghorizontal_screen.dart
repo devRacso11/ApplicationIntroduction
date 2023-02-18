@@ -274,7 +274,7 @@ class _PageButton extends StatelessWidget {
                   style: TextStyle(fontSize: 20.0,color: colorText)
                 )
               ),
-              onPressed: () => Navigator.pushNamed(context, 'home'),
+              onPressed: () => Navigator.pop(context),
             ),
           ],
         ),

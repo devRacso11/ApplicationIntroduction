@@ -24,7 +24,7 @@ class _SlideLiquidScreenState extends State<SlideLiquidScreen> {
     final pages = [
       ViewComponent(
         context: context,
-        backgroundColor: Color.fromRGBO(30, 42, 54, 1.0),
+        backgroundColor: const Color.fromRGBO(30, 42, 54, 1.0),
         assetImage: const AssetImage("assets/paisajes/paisaje-1.jpeg"),
         title1: 'Nisi esse exercitation.',
         title2: 'Ipsum ad ullamco minim.',
@@ -33,7 +33,7 @@ class _SlideLiquidScreenState extends State<SlideLiquidScreen> {
       ),
       ViewComponent(
         context: context,
-        backgroundColor: Color.fromRGBO(22, 20, 25, 1.0),
+        backgroundColor: const Color.fromRGBO(22, 20, 25, 1.0),
         assetImage: const AssetImage("assets/paisajes/paisaje-2.jpg"),
         title1: 'Consequat anim ad laboru.',
         title2: 'Pariatur non eiusmod labore.',
@@ -42,7 +42,7 @@ class _SlideLiquidScreenState extends State<SlideLiquidScreen> {
       ),
       ViewComponent(
         context: context,
-        backgroundColor: Color.fromRGBO(0, 0, 0, 1.0),
+        backgroundColor: const Color.fromRGBO(0, 0, 0, 1.0),
         assetImage: const AssetImage("assets/paisajes/paisaje-3.jpeg"),
         title1: 'Nulla adipisicing duis est.',
         title2: 'Proident non reprehenderit elit.',
@@ -51,7 +51,7 @@ class _SlideLiquidScreenState extends State<SlideLiquidScreen> {
       ),
       ViewComponent(
         context: context,
-        backgroundColor: Color.fromRGBO(14, 53, 82, 1.0),
+        backgroundColor: const Color.fromRGBO(14, 53, 82, 1.0),
         assetImage: const AssetImage("assets/paisajes/paisaje-4.jpeg"),
         title1: 'Amet amet deserunt magna.',
         title2: 'In sunt sunt anim eiusmod.',

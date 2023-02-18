@@ -6,12 +6,12 @@ class AppRoutes {
   static const initialRoute = 'home';
   static final menuOptions = <MenuOption>[
     //*CircularProgress Widget
-    MenuOption(
+    /*MenuOption(
         route: 'circularProgress',
         icon: Icons.circle_outlined,
         name: 'C I R C U L A R  P R O G R E S S',
         screen: const CircularProgressScreen(),
-    ),
+    ),*/
 
     //* SlideShow Widget
     MenuOption(

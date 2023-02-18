@@ -33,7 +33,7 @@ class AppRoutes {
     MenuOption(
         route: 'slideliquid',
         icon: Icons.waves,
-        name: 'S L I D E  V E R T I C A L',
+        name: 'S L I D E  L I Q U I D',
         screen: const SlideLiquidScreen(),
     ),
 

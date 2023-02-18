@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 
 //Devuelve una vista de una imagen y texto reutilizable
@@ -8,6 +10,7 @@ class ViewComponent extends StatelessWidget {
   final String title2;
   final String subtitle;
   final Color backgroundColor;
+  final IconData icon;
   final bool isDark;
 
   const ViewComponent({
@@ -18,6 +21,7 @@ class ViewComponent extends StatelessWidget {
     this.title2 = '',
     this.subtitle = '',
     this.backgroundColor = Colors.white,
+    this.icon = Icons.keyboard_arrow_down,
     this.isDark = false
 
   });
@@ -100,6 +104,12 @@ class ViewComponent extends StatelessWidget {
                     fontSize: 20.0,
                     fontFamily: "Product Sans",
                   )
+                ),
+                const SizedBox(height: 80,),
+                Icon(
+                  icon,
+                  color: Color.fromRGBO(255, 255, 255, icon == Icons.keyboard_arrow_down ? 0 : 1),
+                  size: 70,
                 ),
               ],
             ),

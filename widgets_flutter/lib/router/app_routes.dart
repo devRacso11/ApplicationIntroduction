@@ -21,12 +21,20 @@ class AppRoutes {
         screen: const SliderShowScreen(),
     ),
 
-    //*UnboxigHorizontal
+    //*UnboxingHorizontal
     MenuOption(
         route: 'unboxinghorizontal',
         icon: Icons.horizontal_distribute_rounded,
         name: 'S L I D E  H O R I Z O N T A L',
         screen: const UnboxingHorizontalScreen(),
+    ),
+
+    //*UnboxingVertical
+    MenuOption(
+        route: 'unboxingvertical',
+        icon: Icons.vertical_distribute_rounded,
+        name: 'S L I D E  V E R T I C A L',
+        screen: const UnboxingVerticalScreen(),
     ),
 
     //*SlideVertical
